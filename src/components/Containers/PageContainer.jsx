@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledPageContainer = styled.div`
-  padding: 7em 5em;
+  padding: 7em 7em;
   height: calc(100vh - 14em);
 `;
 
