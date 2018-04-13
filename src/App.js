@@ -9,6 +9,8 @@ import Landing from "./views/Landing";
 import Navbar from "./components/Navbar";
 import { PageContainer } from "./components/Containers";
 
+import "./stylesheets/main.scss";
+
 class App extends Component {
   render() {
     return (

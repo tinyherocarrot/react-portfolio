@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import styled from "styled-components";
 
-const Li = styled.li`
-  margin: 0 1em;
-  text-transform: uppercase;
+// const Li = styled.li`
+//   margin: 0 1em;
+//   text-transform: uppercase;
 
-  &:hover {
-    cursor: pointer
-    color: mediumseagreen
-  }
-`;
+//   &:hover {
+//     cursor: pointer
+//     color: mediumseagreen
+//   }
+// `;
 
 class Navlink extends Component {
   handleClick = () => {
@@ -18,9 +17,9 @@ class Navlink extends Component {
 
   render() {
     return (
-      <Li>
+      <li>
         <a onClick={this.handleClick}>{this.props.children}</a>
-      </Li>
+      </li>
     );
   }
 }

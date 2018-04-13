@@ -1,11 +1,3 @@
 import React from "react";
-import styled from "styled-components";
 
-const StyledPageContainer = styled.div`
-  padding: 7em 7em;
-  height: calc(100vh - 14em);
-`;
-
-export const PageContainer = props => (
-  <StyledPageContainer>{props.children}</StyledPageContainer>
-);
+export const PageContainer = props => <div>{props.children}</div>;

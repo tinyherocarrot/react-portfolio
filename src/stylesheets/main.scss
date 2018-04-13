@@ -1,8 +1,7 @@
-@import "utils/all";
-@import "base/all";
-@import "components/all";
-@import "themes/all";
+@import "./utils/all";
 
-h1 {
+body {
   font: 100% $font-stack;
+  color: white;
+  background: $color-primary;
 }

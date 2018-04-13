@@ -1,6 +1,6 @@
 import React from "react";
 import { PageContainer } from "../components/Containers";
-import { StyledLink } from "../components/Link";
+import { Link } from "react-router-dom";
 
 const HomeView = () => (
   <PageContainer>
@@ -14,7 +14,10 @@ const HomeView = () => (
       What excites me is getting to use my skillset to support these movements.
     </h3>
     <h3>
-      Check out my <StyledLink to="/detail">work</StyledLink>!
+      Check out my{" "}
+      <Link className="text-link" to="/detail">
+        work
+      </Link>!
     </h3>
   </PageContainer>
 );
