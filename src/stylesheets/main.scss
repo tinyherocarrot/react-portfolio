@@ -1,7 +1,8 @@
 @import "./utils/all";
+@import "./partials/all";
 
 body {
   font: 100% $font-stack;
-  color: white;
+  color: black;
   background: $color-primary;
 }
