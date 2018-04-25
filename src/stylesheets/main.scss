@@ -4,5 +4,49 @@
 body {
   font: 100% $font-stack;
   color: black;
-  background: $color-primary;
+  background: rgba(94, 214, 156, 1);
+  background: -moz-linear-gradient(
+      45deg,
+      rgba(94, 214, 156, 1) 0%,
+      rgba(84, 176, 170, 1) 100%
+    )
+    no-repeat center center fixed;
+  background: -webkit-gradient(
+      left bottom,
+      right top,
+      color-stop(0%, rgba(94, 214, 156, 1)),
+      color-stop(100%, rgba(84, 176, 170, 1))
+    )
+    no-repeat center center fixed;
+  background: -webkit-linear-gradient(
+      45deg,
+      rgba(94, 214, 156, 1) 0%,
+      rgba(84, 176, 170, 1) 100%
+    )
+    no-repeat center center fixed;
+  background: -o-linear-gradient(
+      45deg,
+      rgba(94, 214, 156, 1) 0%,
+      rgba(84, 176, 170, 1) 100%
+    )
+    no-repeat center center fixed;
+  background: -ms-linear-gradient(
+      45deg,
+      rgba(94, 214, 156, 1) 0%,
+      rgba(84, 176, 170, 1) 100%
+    )
+    no-repeat center center fixed;
+  background: linear-gradient(
+      45deg,
+      rgba(94, 214, 156, 1) 0%,
+      rgba(84, 176, 170, 1) 100%
+    )
+    no-repeat center center fixed;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ed69c', endColorstr='#54b0aa', GradientType=1 );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  font-weight: lighter;
 }

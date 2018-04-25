@@ -7,7 +7,10 @@ class Detail extends Component {
       <div>
         <h1>Hello.</h1>
         <p>This is a detail page.</p>
-        <Link to="/"> HOME </Link>
+        <Link className="text-link" to="/">
+          {" "}
+          HOME{" "}
+        </Link>
       </div>
     );
   }
