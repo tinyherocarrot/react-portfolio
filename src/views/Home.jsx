@@ -1,6 +1,8 @@
 import React from "react";
 import { PageContainer } from "../components/Containers";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+import Carousel from "../components/Carousel";
 
 const HomeView = () => (
   <PageContainer>
@@ -19,6 +21,7 @@ const HomeView = () => (
         work
       </Link>!
     </h3>
+    <Carousel />
   </PageContainer>
 );
 
